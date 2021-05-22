@@ -1,0 +1,20 @@
+Class and id are not the same
+
+when to use selectors:
+	Elements have different power
+	Hierarchy:
+		inline styling
+		id: Once in an element
+		class
+		element
+
+sudo selector:
+	anker, how it is before or after visted,etc
+
+advanced selectors:
+	Adjacent Sibling Selector:
+	every single element that follows to another
+Attributes:
+	img[cuyo atributo sea] = img [src = ".."]
+	^ y * para cualquier imagen (solo especifico ubi de carpeta)
+	$ para especifico (ubi de archivo)

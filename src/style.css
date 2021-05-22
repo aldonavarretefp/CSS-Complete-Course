@@ -1,0 +1,83 @@
+/* element selector */
+body{
+    background-color: lightslategrey;
+}
+
+h2:hover{
+    color:red;
+}
+
+/* class selector . */
+/* .title{
+    color: lightgoldenrodyellow;
+} */
+
+/* .subtitle{
+    color:blue;
+} */
+/* .contact-us{
+    color: greenyellow;
+}
+.about-me{
+    color: purple;
+} */
+
+/* id selector # */
+#services{
+    color:hotpink;
+}
+
+/* First Child and Last Child */
+/* The first that you are going to find */
+/* li:first-child{
+    color:rgba(97, 162, 214, 0.712);
+}
+li:last-child{
+    color:rgb(231, 231, 231);
+}
+li:nth-child(2){
+    color:rgb(197, 16, 16);
+}
+ul li:only-child{
+    background-color: tomato;
+} */
+
+/* Anker */
+/* Sudo selector */
+/* #google-link:link{
+    color: rgb(18, 230, 106);
+
+}
+#google-link:visited{
+    color:pink;
+} */
+
+/* Basic Advanced Selectors */
+/* Adjacent Sibling Selector */
+/* Every anker tag that follows an h2 despite it is outside some div or smt */
+h2 + a {
+    color:rgb(172, 209, 39);
+}
+/* Every button tag that follows an textarea , they are in the same PARENT*/
+textarea ~ button {
+    color:purple;
+}
+/* Parent: every direct child */
+ul >li{
+    color:blue
+}
+
+/* Descendant selector: every child*/
+ul li {
+    color:purple;
+}
+
+/* Atributtes */
+h2[class = subtitle]{
+    color:purple;
+}
+
+img[src *= "../img/"] {
+    border-bottom: red;
+    border: 10px solid black;
+}
