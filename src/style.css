@@ -1,6 +1,8 @@
-/* element selector */
+/* element selector*/
 body{
-    background-color: lightslategrey;
+    /* background: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
+    /* background-image: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
+    background: wheat;
 }
 
 h2:hover{
@@ -23,9 +25,9 @@ h2:hover{
 } */
 
 /* id selector # */
-#services{
+/* #services{
     color:hotpink;
-}
+} */
 
 /* First Child and Last Child */
 /* The first that you are going to find */
@@ -55,36 +57,38 @@ ul li:only-child{
 /* Basic Advanced Selectors */
 /* Adjacent Sibling Selector */
 /* Every anker tag that follows an h2 despite it is outside some div or smt */
-h2 + a {
+/* h2 + a {
     color:rgb(172, 209, 39);
-}
+} */
 /* Every button tag that follows an textarea , they are in the same PARENT*/
-textarea ~ button {
+/* textarea ~ button {
     color:purple;
-}
+} */
 /* Parent: every direct child */
-ul >li{
+/* ul >li{
     color:blue
-}
+} */
 
 /* Descendant selector: every child*/
-ul li {
+/* ul li {
     color:purple;
-}
+} */
 
 /* Atributtes */
-h2[class = subtitle]{
+/* h2[class = subtitle]{
     color:purple;
-}
+} */
 
-img[src *= "../img/"] {
+/* img[src *= "../img/"] {
     border-bottom: red;
     border: 10px solid black;
-}
+} */
 
 /* Elements separated by white space */
-h2[class|=article-subtitle]{
+/* h2[class|=article-subtitle]{
     background: green;
+} */
+
+.list-item{
+    background-color: rgb(39, 204, 174);
 }
-
-
