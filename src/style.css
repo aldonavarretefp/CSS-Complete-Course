@@ -81,3 +81,10 @@ img[src *= "../img/"] {
     border-bottom: red;
     border: 10px solid black;
 }
+
+/* Elements separated by white space */
+h2[class|=article-subtitle]{
+    background: green;
+}
+
+
