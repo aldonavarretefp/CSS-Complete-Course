@@ -1,12 +1,13 @@
 /* element selector*/
-body{
-    /* background: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
-    /* background-image: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
-    background: wheat;
+body {
+  /* background: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
+  /* background-image: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
+  background: linear-gradient(to bottom, rgba(255, 0, 0), rgb(0, 123, 255));
+  font-size: 2mm;
 }
 
-h2:hover{
-    color:red;
+h2:hover {
+  color: red;
 }
 
 /* class selector . */
@@ -89,6 +90,23 @@ ul li:only-child{
     background: green;
 } */
 
-.list-item{
-    background-color: rgb(39, 204, 174);
+.list-item {
+  background-color: rgb(39, 204, 174);
+}
+
+#service-image {
+  height: 40vh;
+  width: 70vw;
+  /* background: linear-gradient(
+    170deg,
+    rgba(43, 202, 223, 0.1),
+    steelblue,
+    blue
+  ); to top, to bottom, to bottom right */
+
+  background: radial-gradient(
+    rgb(163, 129, 243),
+    rgb(38, 38, 184),
+    rgb(0, 215, 223)
+  );
 }

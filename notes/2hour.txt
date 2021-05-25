@@ -1,0 +1,25 @@
+GENERAL ATTRIBUTE SELECTOR:
+	|= that means
+
+ General rules
+Color picker
+background color
+img background(url(local or online))
+
+BACKGROUND PROPERTIES
+	COVER, CONTAIN
+
+rgb colors
+	rgba. alpha means visible 1 and transparent 0
+	gradient.radial (circular).
+		linear. angles
+		top to down, diagonal, etc
+
+units:
+	absolute units(mm,cm):they are absolute
+	em. double estandar
+	vw,vh percent of the body built
+	relative units(percent)
+
+text manipulation:
+	
