@@ -3,7 +3,11 @@ body {
   /* background: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
   /* background-image: url(https://www.ninoversace.com/wp-content/uploads/landscape-mountains-sky-4843193.jpg); */
   background: linear-gradient(to bottom, rgba(255, 0, 0), rgb(0, 123, 255));
-  font-size: 2mm;
+  font-size: 1.15em;
+  /* text-transform: uppercase; capitalize every single word */
+  text-align: justify;
+  font-family: "Dancing Script", cursive;
+  padding: 30px;
 }
 
 h2:hover {
@@ -109,4 +113,19 @@ ul li:only-child{
     rgb(38, 38, 184),
     rgb(0, 215, 223)
   );
+}
+
+.link {
+  text-decoration: overline;
+}
+.title {
+  font-weight: 400;
+}
+
+.italics {
+  font-style: italic;
+}
+#new_img {
+  height: 300px;
+  width: 60%;
 }
